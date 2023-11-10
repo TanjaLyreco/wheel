@@ -212,6 +212,13 @@ if (reversed == null) { reversed = false; }
 	// actions tween:
 	this.timeline.addTween(cjs.Tween.get(this).call(this.frame_0).wait(1));
 
+	// Layer_1
+	this.shape = new cjs.Shape();
+	this.shape.graphics.f("#009900").s().p("AojlhIRHAAIokLEg");
+	this.shape.setTransform(499.95,51.45);
+
+	this.timeline.addTween(cjs.Tween.get(this.shape).wait(1));
+
 	// Wheel
 	this.button_11 = new lib.PLAY();
 	this.button_11.name = "button_11";
@@ -235,7 +242,7 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = p = new lib.AnMovieClip();
-p.nominalBounds = new cjs.Rectangle(669,551,161.89999999999998,240.10000000000002);
+p.nominalBounds = new cjs.Rectangle(669,516,161.89999999999998,275.1);
 // library properties:
 lib.properties = {
 	id: 'AA8F0181C52F6043AC06DB8C36FD088E',
